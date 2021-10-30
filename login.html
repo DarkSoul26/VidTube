@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Credentials</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="login-style.css">
+  <link href="https://fonts.googleapis.com/css?family=Nunito:400,600,700,800&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="cont" id="cont">
+    <div class="form" id="sign-in">
+      <h2>Enter Your Credentials</h2>
+      <label>
+        <span>Email Address</span>
+        <input type="email" name="email">
+      </label>
+      <label>
+        <span>Password</span>
+        <input type="password" name="password">
+      </label>
+      <button class="submit" type="button">Sign In</button>
+      <p class="forgot-pass">Forgot Password ?</p>
+      <center><a href="#sign-up" class="forgot-pass">Don't have an account?</a></center>
+      <button class="submit google" type="button">Google Sign In</button>
+    </div>
+
+      <div class="form" id="sign-up">
+        <h2>Make Your Account Now</h2>
+        <label>
+          <span>Name</span>
+          <input type="text">
+        </label>
+        <label>
+          <span>Email</span>
+          <input type="email">
+        </label>
+        <label>
+          <span>Password</span>
+          <input type="password">
+        </label>
+        <button type="button" class="submit">Sign Up</button>
+        <center><a href="#sign-in" class="forgot-pass">Already have an account?</a></center>
+        <button class="submit google" type="button">Google Sign Up</button>
+      </div>
+    </div>
+  </div>
+<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
