@@ -114,7 +114,7 @@ svg {
 }
 
 .chips__item--selected {
-    background-color: black;
+    background-color: #9932CC;
     color: white;
 }
 
@@ -169,7 +169,7 @@ svg {
 }
 
 .sidebar__section__link--selected svg { 
-    fill: #f00
+    fill: #9932CC;
 }
 
 .sidebar__section:last-child {
@@ -252,4 +252,3 @@ svg {
     flex-wrap: wrap;
     justify-content: center;
 }
-
