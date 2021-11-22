@@ -20,4 +20,8 @@ Website link: https://vidtubehci.netlify.app/
 
 ![image](https://user-images.githubusercontent.com/60578902/139555213-ab18e28f-9101-442f-8f7e-0b96a34c7b66.png)
 
+**VIDEO PLAYING**
+
+![image](https://user-images.githubusercontent.com/60578902/142799353-16758373-ea15-4d63-93c5-0f498ab44cf9.png)
+
 _**Thank You!**_
