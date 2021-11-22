@@ -9,8 +9,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
     
-    <link rel="stylesheet" href="explore-style.css">
-    <title>VidTube Explore</title>
+    <link rel="stylesheet" href="video-style.css">
+    <title>VidTube Video Play</title>
 </head>
 <body>
     <nav class="navigation">
@@ -125,35 +125,17 @@
 
     <!-- ALL THE VIDEOS -->
     <main class="feed">
-        <div class="explore-window">
-            <a class="explore-item">
-                <img src="images/sports.png" alt="sports" class="explore-icon">
-                <h3>Sports</h3>
-            </a>
-            <a class="explore-item">
-                <img src="images/live.png" alt="live" class="explore-icon">
-                <h3>Live</h3>
-            </a>
-            <a class="explore-item">
-                <img src="images/music-note.png" alt="music" class="explore-icon">
-                <h3>Music</h3>
-            </a>
-            <a class="explore-item">
-                <img src="images/movies.png" alt="movies" class="explore-icon">
-                <h3>Movies</h3>
-            </a>
-            <a class="explore-item">
-                <img src="images/kids.png" alt="kids" class="explore-icon">
-                <h3>Kids</h3>
-            </a>
-            <a class="explore-item">
-                <img src="images/news.png" alt="news" class="explore-icon">
-                <h3>News</h3>
-            </a>
-            <a class="explore-item">
-                <img src="images/gaming.png" alt="gaming" class="explore-icon">
-                <h3>Gaming</h3>
-            </a>
+        <div class="video-window">
+            <video class="video-play" controls autoplay>
+                <source src="videos/sample-video.mp4" type="video/mp4">
+            </video>
+            <h3>Title of the video</h3>
+            <h4>Channel name</h4>
+            <div class="like-share">
+                <a href="" class="icon"><img src="images/like.png" alt="Like" height="30px" width="30px"></a>
+                <a href="" class="icon"><img src="images/comment.png" alt="Like" height="30px" width="30px"></a>
+                <a href="" class="icon"><img src="images/share.png" alt="Like" height="30px" width="30px"></a>
+            </div>
         </div>
     </main>
 </body>

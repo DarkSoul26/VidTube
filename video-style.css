@@ -252,3 +252,18 @@ svg {
     flex-wrap: wrap;
     justify-content: center;
 }
+
+.video-window{
+    line-height: 10px;
+}
+.video-play{
+    height:500px;
+    width: 1200px;
+}
+
+.like-share{
+    display: inline-block;
+    position: absolute;
+    top: 650px;
+    left: 1400px;
+}
