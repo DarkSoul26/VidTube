@@ -262,8 +262,9 @@ svg {
 }
 
 .like-share{
-    display: inline-block;
-    position: absolute;
-    top: 650px;
-    left: 1400px;
+    /* display: inline-block; */
+    /* position: absolute; */
+    text-align: left;
+    /* top: 650px; */
+    /* left: 1400px; */
 }
